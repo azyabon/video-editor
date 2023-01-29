@@ -1,0 +1,13 @@
+@import '../../../assets/styles/variables';
+
+.player_wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  .player {
+    width: 80%;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid $color-black;
+    box-shadow: 0 0 4px 2px $color-black;
+  }
+}
